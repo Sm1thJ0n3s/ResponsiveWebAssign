@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+b{
+    color: deeppink;
+}
+
+.HardestGDLevel{
+    display: inline;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.GeometryDash{
+    width:70%;
+    height:10%;
+}
+
+.aboutGD{
+    background-color: darkslategrey;
+    color:lightgreen;
+    margin: 2rem 
+}
+
+.GDinfo{
+    display:inline;
+    font-size: 18px;
+}
+
+.gdLevel{
+    margin: 0.5rem;
+    width:13%;
+    float:right;
+}
+
+.intro, .demonIntro, .conclusion{
+    font-size:20px;
+    margin: 2rem 3.5rem;
+}
+
+.aboutDemon{
+    background-color: rgb(72, 5, 5);
+    color:rgb(195, 255, 149);
+    margin: 2rem;
+}
+
+.rankedDemons{
+    border-collapse: collapse;
+    background-color: maroon;
+    color:khaki;
+    float:left;
+    font-size: 20px;
+    margin: 0.75rem 1.25rem;
+}
+
+th, td{
+    border: 2px solid rgb(133, 133, 133);
+}
+
+.Demoninfo, b{
+    font-size: 15px;
+    display:inline;
+}
+
+.HardestGDLevel{
+    width: 23%;
+    float:right;
+    margin: 1.2rem 1rem;
+}
+
+
+@media only screen and (max-width:620px){
+    p{
+        font-size:11px;
+    }
+    .aboutGD{
+        margin: 1.5rem 1.2rem;
+        background-color: crimson;
+        color: greenyellow;
+    }
+
+    .intro, .demonIntro, .conclusion{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 1.2rem 0.9rem;
+    }
+    .intro{
+        font-size: 12px;
+    }
+    .demonIntro{
+        margin:1.2rem 0.86rem;
+        font-size: 12px;
+    }
+
+    .GeometryDash{
+        width:90%;
+        height:10%;
+    }
+    .GDinfo{
+        font-size: 12px;
+    }
+    .gdLevel{
+        margin: 0.5rem;
+        width:42%;
+        height:5.8rem;
+        float:right;
+    }
+
+    .aboutDemon{
+        background-color: rgb(135, 40, 40);
+        color: rgb(88, 247, 159);
+    }
+
+    .Demoninfo, b{
+        font-size: 12px;
+    }
+
+    .rankedDemons{
+        border: 2px solid black;
+        background-color: rgb(0, 28, 128);
+        color:rgb(249, 195, 241);
+        font-size: 12px;
+        float:none;
+        margin:auto
+    }
+
+    .HardestGDLevel{
+        width: 80%;
+        float:none;
+    }
+
+    .conclusion{
+        margin: 1.2rem 0.8rem;
+        font-size: 12px;
+    }
+
+}
